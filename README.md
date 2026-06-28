@@ -40,12 +40,14 @@
 #include <map>
 #include <string>
 
+using namespace std;
+
 class AboutMe {
 public:
-    std::string name = "Mahmoud Rageh";
-    std::string focus = "Problem Solving & Software Development";
+    string name = "Mahmoud Rageh";
+    string focus = "Problem Solving & Software Development";
     
-    std::map<std::string, std::vector<std::string>> myTools = {
+    map<string, vector<string>> myTools = {
         {"CoreLanguages",      {"C++", "C#", "Python", "JavaScript"}},
         {"Backend",           {".NET", "C# Web API"}},
         {"Frontend&Mobile",    {"HTML", "CSS", "React Native (Basics)"}},
